@@ -152,6 +152,9 @@ li a:hover,
 }
 
 @media screen and (max-width: 768px) {
+    body{
+        overflow: hidden;
+    }
     .col-lg-7.align-self-center {
         margin-top: 30px;
 }
