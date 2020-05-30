@@ -169,7 +169,7 @@ li a:hover,
 }
 
 /* Login Styling*/
-a.navbar-brand {
+a.login-brand {
     padding-top: 126px;
 }
 .form-text {
@@ -273,7 +273,7 @@ button.btn.exchange-btn {
 }
 
 /* Login */
-a.navbar-brand {
+a.login-brand {
     padding-top: 83px;
 }
 .container.form-wrapper {
