@@ -169,39 +169,28 @@ li a:hover,
 }
 
 /* Login Styling*/
-
-body.form-content {
-    background: linear-gradient(131.12deg, #2495FF -0.13%, #0902A5 51.98%);
-}
-
 .form-text {
     margin-top: -16px;
     font-size: 31px;
-    margin-right: 86px;
+    margin-right: 199px;
 }
 
-/* .background-image {
+.form-content {
     background-image: url("../images/loginbg.png");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     height: 100%;
-} */
+} 
 
 .form-card {
     width: 50%;
 }
 
-/* .container.form-wrapper {
-    margin-top: 19rem !important;
-} */
-
-/* .card-body {
-    padding: 100px;
-} */
 .card-body.mx-auto {
-    padding-left: 109px;
-    width: 123%;
+    padding-right: -27px;
+    padding-left: 57px;
+    width: 126%;
 }
 
 .form-control {
@@ -210,13 +199,23 @@ body.form-content {
 }
 
 button.btn.btn-lg.form-button.text-md-center {
-    width: 77%;
+    width: 68%;
     text-align: center;
-    height: 63px;
+    height: 55px;
     background: linear-gradient(99.37deg, #3968E7 3.14%, #0902A5 103.34%);
     border-radius: 5px;
     color: white;
-    font-size: 30px;
+    font-size: 26px;
+}
+
+.form-row.signup-text {
+    width: 100%;
+}
+
+i#togglePassword {
+    position: absolute;
+    top: 212px;
+    right: 99px;
 }
 
 @media screen and (max-width: 768px) {
@@ -273,9 +272,9 @@ button.btn.exchange-btn {
 /* Login */
 
 .container.form-wrapper {
-    padding-left: 40px;
-    margin-top: 5rem !important;
-    padding-right: 40px;
+    padding-left: 21px;
+    margin-top: -3rem !important;
+    padding-right: 17px;
 }
 
 .card-body.mx-auto {
@@ -291,8 +290,20 @@ button.btn.exchange-btn {
 .form-card {
     width: 100%;
 }
+
+.form-text {
+    margin-right: 96px;
 }
- /*
+
+i#togglePassword {
+    right: 52px;
+}
+button.btn.btn-lg.form-button.text-md-center {
+    width: 77%;
+}
+
+}
+/*
 // Medium devices (tablets, 768px and up)
 @media (min-width: 768px) { ... }
 

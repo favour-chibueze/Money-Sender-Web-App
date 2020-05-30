@@ -9,38 +9,45 @@
       href="https://fonts.googleapis.com/css2?family=Muli:wght@400;700&family=Ubuntu:wght@400;700&display=swap"
       rel="stylesheet"
     />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body class="form-content">
     <div class="container form-wrapper pb-5">
         <div class="card form-card mx-auto">
-            <div class="card-body mt-5 mb-5 mx-auto">
-        <form>
+            <div class="card-body mt-5 mb-3 mx-auto">
+        
             <div class="form-text text-center pb-4">Login</div>
+            <form>
             <div class="form-group">
-              <input type="text" class="form-control" id="inputUsername" placeholder="Username">
+              <input type="text" class="form-control" id="inputUsername validationDefaultUsername" placeholder="Username">
             </div>
             <div class="form-group">
-              <input type="password" class="form-control" id="inputPassword" placeholder="Password">
+              <input type="password" class="form-control" name="password" id="inputPassword" placeholder="Password">
+              <i class="far fa-eye" id="togglePassword"></i>
             </div>
             <div class="form-row">
-            <div class="col-md-6 mb-3">
-                <div class="custom-control form-check custom-radio">
-                    <input type="radio" class="custom-control-input" id="customControlValidation2" name="radio-stacked" required>
-                    <label class="custom-control-label" for="customControlValidation2">Remember me</label>
+            <div class="col-md-6">
+                <div class="radio">
+                    <input type="radio"
+                    name="optradio" required>
+                    <label class="radio">Remember me</label>
                   </div>
 
               </div>
-              <div class="col-md-6 mb-3">
-                  <p><a href="" >Forgot password</a></p>
+              <div class="col-md-6">
+                  <p class="forget_pswd_text"><a href="" >Forgot password</a></p>
                 </div>
 
-                <button type="button" class="btn btn-lg form-button text-md-center">Sumbit</button>
-
-                   <div class="sign-up mt-4">
+                <button type="submit" class="btn btn-lg form-button text-md-center">Sumbit</button>
+                <div class="form-row form-inline signup-text mt-4">
+                  <div class="col-md-6">
                         <p>Don't have an account?</p>
-                        <p><a href="">Sign up Here</a></p>
+                  </div>
+                  <div class="col-md-6">
+                        <p class="forget_pswd_text"><a href="">Sign up Here</a></p>
                     </div>
+                </div>
               </div>
           </form>
         </div>
@@ -52,5 +59,33 @@
 <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+<script>
+// Disable form submissions if there are invalid fields
+// (function() {
+//   'use strict';
+//   window.addEventListener('load', function() {
+//     // Get the forms we want to add validation styles to
+//     var forms = document.getElementsByClassName('needs-validation');
+//     // Loop over them and prevent submission
+//     var validation = Array.prototype.filter.call(forms, function(form) {
+//       form.addEventListener('submit', function(event) {
+//         if (form.checkValidity() === false) {
+//           event.preventDefault();
+//           event.stopPropagation();
+//         }
+//         form.classList.add('was-validated');
+//       }, false);
+//     });
+//   }, false);
+// })();
+
+  const togglePassword = document.querySelector('#togglePassword');
+  const password = document.querySelector('#inputPassword');
+  togglePassword.addEventListener('click', function (e) {
+    const type = password.getAttribute('type') === 'password' ? 'text' : 'password';
+    password.setAttribute('type', type);
+    this.classList.toggle('fa-eye-slash');
+});
+  </script>
 </body>
 </html>
