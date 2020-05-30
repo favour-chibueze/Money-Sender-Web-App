@@ -300,6 +300,7 @@ i#togglePassword {
 }
 button.btn.btn-lg.form-button.text-md-center {
     width: 77%;
+    font-size: 23px;
 }
 
 }
