@@ -169,12 +169,54 @@ li a:hover,
 }
 
 /* Login Styling*/
-.background-image {
-    background-image: url(/images/Rectangle\ 46.png);
-    background-size: cover;
-    background-repeat: no-repeat;
+
+body.form-content {
+    background: linear-gradient(131.12deg, #2495FF -0.13%, #0902A5 51.98%);
+}
+
+.form-text {
+    margin-top: -16px;
+    font-size: 31px;
+    margin-right: 86px;
+}
+
+/* .background-image {
+    background-image: url("../images/loginbg.png");
     background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
     height: 100%;
+} */
+
+.form-card {
+    width: 50%;
+}
+
+/* .container.form-wrapper {
+    margin-top: 19rem !important;
+} */
+
+/* .card-body {
+    padding: 100px;
+} */
+.card-body.mx-auto {
+    padding-left: 109px;
+    width: 123%;
+}
+
+.form-control {
+    height: 53px;
+    width: 68%;
+}
+
+button.btn.btn-lg.form-button.text-md-center {
+    width: 77%;
+    text-align: center;
+    height: 63px;
+    background: linear-gradient(99.37deg, #3968E7 3.14%, #0902A5 103.34%);
+    border-radius: 5px;
+    color: white;
+    font-size: 30px;
 }
 
 @media screen and (max-width: 768px) {
@@ -226,6 +268,28 @@ button.btn.exchange-btn {
 }
     .footer-content h5 {
     margin-top: 27px;
+}
+
+/* Login */
+
+.container.form-wrapper {
+    padding-left: 40px;
+    margin-top: 5rem !important;
+    padding-right: 40px;
+}
+
+.card-body.mx-auto {
+    padding-left: 31px;
+    width: 123%;
+}
+
+.form-control {
+    height: 53px;
+    width: 78%;
+}
+
+.form-card {
+    width: 100%;
 }
 }
  /*
