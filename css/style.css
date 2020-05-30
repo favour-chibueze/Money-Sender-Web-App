@@ -9,11 +9,20 @@ body {
 
 section.banner-section {
     background: linear-gradient(115.33deg, #3968E7 0.45%, #0902A5 97.55%);
-    padding-top: 65px;
+    padding-top: 133px;
+}
+
+.fixed-top {
+    z-index: 1030;
+    background: linear-gradient(115.33deg, #3968E7 0.45%, #0902A5 97.55%);
 }
 
 .navbar-light .navbar-toggler {
     color: #FFFFFF;
+}
+
+div#navbarTogglerDemo02 {
+    padding-bottom: 13px;
 }
 
 .navbar-light .navbar-nav .nav-link, 
@@ -95,7 +104,9 @@ p.what-we-do {
 .graph {
     margin-top: 45px;
 }
-
+.graph img {
+    width: 100%;
+}
 h1.access-text {
     font-family: "Montserrat";
     font-style: normal;
@@ -151,11 +162,31 @@ li a:hover,
     text-decoration: none;
 }
 
+/* Login Styling*/
+.background-image {
+    background-image: url(/images/Rectangle\ 46.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 100%;
+}
+
 @media screen and (max-width: 768px) {
     body, html {
         overflow-x: hidden;
     }
+
+    a.navbar-brand {
+        margin-left: 19px;
+    }
     
+    section.banner-section {
+        padding-top: 52px;
+    }
+
+    .banner-header {
+        font-size: 35px;
+    }
     .col-lg-7.align-self-center {
         margin-top: 30px;
 }
@@ -163,9 +194,21 @@ li a:hover,
         width: 100%;
         margin-left: 0;
 }
+
+button.btn.exchange-btn {
+    width: 100%;
+    margin-left: -5px;
+}
+
+
+.graph-section {
+    padding-bottom: 43px;
+}
+
   .container.footer-content {
     text-align: left;
-    padding-left: 0px;
+    padding-left: 29px;
+    margin-top: 4px;
 }
     .footer-content h5 {
     margin-top: 27px;
