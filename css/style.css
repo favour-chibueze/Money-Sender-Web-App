@@ -21,6 +21,12 @@ section.banner-section {
     color: #FFFFFF;
 }
 
+.navbar-light .navbar-toggler {
+    color: #FFFFFF;
+    border-color: #FFFFFF;
+    margin-right: 9px;
+}
+
 div#navbarTogglerDemo02 {
     padding-bottom: 13px;
 }
@@ -178,6 +184,14 @@ li a:hover,
 
     a.navbar-brand {
         margin-left: 19px;
+    }
+    
+    ul.navbar-nav.navbar-fixed-top.ml-auto {
+        padding-left: 26px;
+    }
+
+    button.btn.btn-primary {
+        margin-left: 16px;
     }
     
     section.banner-section {
