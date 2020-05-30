@@ -169,6 +169,9 @@ li a:hover,
 }
 
 /* Login Styling*/
+a.navbar-brand {
+    padding-top: 126px;
+}
 .form-text {
     margin-top: -16px;
     font-size: 31px;
@@ -270,7 +273,9 @@ button.btn.exchange-btn {
 }
 
 /* Login */
-
+a.navbar-brand {
+    padding-top: 83px;
+}
 .container.form-wrapper {
     padding-left: 21px;
     margin-top: -3rem !important;
@@ -289,6 +294,7 @@ button.btn.exchange-btn {
 
 .form-card {
     width: 100%;
+    margin-top: 42px;
 }
 
 .form-text {
