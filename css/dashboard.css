@@ -1,0 +1,481 @@
+.main-container {
+    background-color: #F2F2F2;
+}
+
+.sidenav {
+    background: linear-gradient(169deg, #2495FF -6.42%, #0902A5 98.8%);
+    border-radius: 32px;
+    height: 600px;
+    width: 40px;
+    margin: 10px;
+}
+
+.logo {
+    margin-top: 30px;
+    margin-left: 18px;
+    width: 50px;
+}
+
+.nav-stacked li,
+ul {
+    margin-top: 40px;
+    align-items: center;
+    margin-left: 8px;
+}
+
+.nav-stacked img {
+    margin-top: 10px;
+}
+
+
+/*second grid*/
+
+#myInput {
+    box-sizing: border-box;
+    background-image: url(../images/search\ 1.png);
+    background-position: 18px 16px;
+    background-repeat: no-repeat;
+    font-size: 14px;
+    border: none;
+    padding: 14px 225px 12px 45px;
+    background-color: #fff;
+    border-radius: 18px;
+}
+
+.bell {
+    margin-left: 150px;
+    height: 50px;
+    width: 50px;
+}
+
+.second-row {
+    margin-top: 20px;
+}
+
+.first-row {
+    margin-top: 10px;
+}
+
+.send-text {
+    font-family: 'Montserrat Alternates', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 22px;
+    color: #424242;
+    margin-left: 22px;
+}
+
+.big-box {
+    position: absolute;
+    width: 420px;
+    height: 125px;
+    background: #FFFFFF;
+    border-radius: 20px;
+}
+
+.dropdown button {
+    background: #FFFFFF;
+    border: 1px solid #EFEFEF;
+    box-sizing: border-box;
+    border-radius: 8px;
+    margin-top: 10px;
+    margin-left: 13px;
+}
+
+.visa-num {
+    font-family: 'Montserrat Alternates', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 10px;
+    line-height: 18px;
+    color: #424242;
+    opacity: 0.3;
+    margin-left: 2px;
+}
+
+.caret {
+    color: #BDBDBD;
+}
+
+.amt-ngn p {
+    font-family: 'Montserrat Alternates', sans-serif;
+    font-style: normal;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 18px;
+    color: #424242;
+    opacity: 0.4;
+    margin-top: 10px;
+    margin-left: 120px;
+}
+
+.amt-ngn h3 {
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 23px;
+    color: #222222;
+    margin-top: -12px;
+    margin-left: 90px;
+}
+
+.active-amount p {
+    font-family: 'Montserrat Alternates', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 20px;
+    color: #424242;
+    opacity: 0.4;
+    margin-left: 35px;
+    margin-top: 30px;
+}
+
+.active-amtspan {
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 16px;
+    color: #000;
+}
+
+.btn-money {
+    background-color: #2495FF;
+    border-radius: 8px;
+    font-family: 'Montserrat Alternates', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 10px;
+    line-height: 18px;
+    color: #FFFFFF;
+    margin-top: 28px;
+    margin-left: 35px;
+}
+
+.btn-money:hover {
+    background-color: #424242;
+}
+
+.blue-card1 {
+    background: linear-gradient(242.01deg, #0902A5 13%, #2495FF 96.78%);
+    box-shadow: 0px 8px 32px rgba(0, 42, 122, 0.2);
+    color: #fff;
+    height: 121px;
+    border-radius: 20px;
+    padding: 0;
+    margin-left: 50px;
+}
+
+.monthly-balance {
+    width: 125px;
+    font-family: 'Montserrat Alternates', sans-serif;
+    font-style: normal;
+    font-size: 12px;
+    line-height: 22px;
+    margin: 15px 0px 0px 5px;
+}
+
+.img-dots {
+    position: absolute;
+    width: 4px;
+    height: 4px;
+    margin: 15px 0px 0px 70px;
+}
+
+.monthly-cost {
+    width: 127px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    line-height: 23px;
+    margin: 25px 0px 0px 5px;
+}
+
+.progressbar {
+    position: absolute;
+    top: 90px;
+    width: 220px;
+    background-image: #fff;
+}
+
+
+/* INCOME-OUTCOME*/
+
+.card1 {
+    position: absolute;
+    width: 230px;
+    height: 115px;
+    background-color: #fff;
+    border-radius: 20px;
+    margin-top: 30px;
+}
+
+.circle {
+    background-image: url(../images/Ellipse\ 30\ \(1\).png);
+    background-repeat: no-repeat;
+    position: absolute;
+    left: 20px;
+    margin-top: 10px;
+    height: 48px;
+    width: 48px;
+}
+
+.circle2 {
+    background-image: url(../images/Ellipse\ 31\ \(1\).png);
+}
+
+.circle3 {
+    background-image: url(../images/Ellipse\ 32\ \(1\).png);
+}
+
+.circle img {
+    margin-top: 10px;
+    margin-left: -3px;
+}
+
+.card1-text {
+    margin-top: -60px;
+    margin-left: 60px;
+}
+
+.card1-text h3 {
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 28px;
+    color: #222222;
+}
+
+.card1-text p {
+    font-family: 'Montserrat Alternates', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 10px;
+    line-height: 10px;
+    color: #424242;
+    opacity: 0.4;
+    margin-top: -15px;
+}
+
+.card1-text2 {
+    margin-top: 22px;
+    margin-left: 10px;
+    font-family: 'Montserrat Alternates', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 9px;
+    line-height: 15px;
+}
+
+.balance-text {
+    margin-left: 15px;
+    color: #424242;
+    opacity: 0.4;
+}
+
+.arrow-up {
+    margin-left: 25px;
+}
+
+.arrow-up span {
+    color: #02B075;
+    position: absolute;
+    top: 2px;
+    left: 60px;
+}
+
+.red-text p {
+    color: #E44E51;
+}
+
+
+/*third grid*/
+
+.third-grid {
+    width: 300px;
+    height: 590px;
+    background: #FFFFFF;
+    border-radius: 32px;
+    position: absolute;
+    left: 20px;
+}
+
+.third-grid h4 {
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 23px;
+    color: #000000;
+    margin-top: 25px;
+}
+
+.dashboard-text {
+    font-family: 'Montserrat Alternates', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 20px;
+    color: #424242;
+    opacity: 0.4;
+}
+
+.plus-card {
+    margin-top: 10px;
+}
+
+.plus-card p {
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 20px;
+    color: #424242;
+}
+
+.plus-card img {
+    position: absolute;
+    left: 100px;
+}
+
+.visa-card {
+    background-image: url(../images/Group\ 195.svg);
+    height: 90px;
+}
+
+.visa-text {
+    font-family: 'Montserrat Alternates', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 10px;
+    line-height: 13px;
+    color: #FFFFFF;
+    margin-top: 15px;
+    margin-left: 8px;
+}
+
+.card-numbers {
+    font-family: 'Montserrat Alternates', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 10px;
+    line-height: 15px;
+    color: #FFFFFF;
+    margin: 19px 0 0 -5px;
+}
+
+.visa-image {
+    margin: 22px 0 0 15px;
+}
+
+.active-amount {
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 23px;
+    color: #222222;
+    margin-left: -19px;
+}
+
+.active-balance {
+    font-family: 'Montserrat Alternates', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 17px;
+    color: #424242;
+    opacity: 0.4;
+    margin: -19px;
+    position: absolute;
+    top: 65px;
+}
+
+.transaction-col {
+    margin-top: 20px;
+    margin-left: 10px;
+}
+
+.transaction-col p {
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 20px;
+    color: #424242;
+    margin-left: 8px;
+}
+
+.transaction-col img {
+    margin-left: 90px;
+}
+
+.letter-circle {
+    background-image: url(../images/Ellipse\ 15\ \(1\).png);
+    background-repeat: no-repeat;
+    height: 40px;
+    position: absolute;
+    left: 5px;
+    top: 5px;
+}
+
+.letter-circle p {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 22px;
+    color: #1692FF;
+    position: absolute;
+    margin-top: 7px;
+    text-align: center;
+}
+
+.banks-text1 {
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 16px;
+    color: #222222;
+    margin-top: 10px;
+    margin-left: -15px;
+}
+
+.banks p {
+    font-family: 'Montserrat Alternates', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 10px;
+    line-height: 15px;
+    color: #424242;
+    opacity: 0.4;
+    margin-left: -15px;
+    margin-top: -8px;
+}
+
+.banks-amount {
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 16px;
+    color: #02B075;
+    margin-top: 11px;
+    position: absolute;
+    left: 18px;
+}
+
+.banks-amount1 {
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 16px;
+    color: #E44E51;
+    margin-top: 11px;
+    position: absolute;
+    left: 18px;
+}
