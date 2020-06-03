@@ -75,6 +75,70 @@ button.btn.banner-btn {
     border-radius: 5px;
 }
 
+.card.banner-card {
+    background: rgba(9, 2, 165, 0.47);
+    box-shadow: -11.81px 44.2873px 63.9706px rgba(0, 0, 0, 0.04);
+    height: 772px;
+    width: 100%;
+}
+h5.mb-0.pb-3, h4.card-header-title {
+    margin-top: -6px;
+}
+.card.card-send {
+    background: #FFFFFF;
+    box-shadow: -12.2452px 45.9196px 66.3283px rgba(0, 0, 0, 0.04);
+    border-radius: 12.2452px;
+    height: 73px;
+    top: -17px;
+    left: 27px;
+    width: 177px;
+}
+.card.card-send_2 {
+    width: 200px;
+    margin: 0;
+    position: absolute;
+    left: 194px;
+    top: 86px;
+    padding-top: 17px;
+    height: 72px;
+    background: rgba(255, 255, 255, 0.35);
+    box-shadow: -12.4964px 46.8615px 67.6889px rgba(0, 0, 0, 0.04);
+    border-radius: 12.4964px;
+}
+
+.card.card-send_3 {
+    width: 203px;
+    margin: 0;
+    position: absolute;
+    left: 194px;
+    top: 243px;
+    padding-top: 17px;
+    height: 72px;
+    background: rgba(255, 255, 255, 0.35);
+    box-shadow: -12.4964px 46.8615px 67.6889px rgba(0, 0, 0, 0.04);
+    border-radius: 12.4964px;
+}
+span.pl-4, span.pl-3, .arrow-down {
+    font-size: 25px;
+    color: white;
+}
+img.flag {
+    margin-left: 24px;
+}
+img.usa_flag{
+    margin-left: 22px;
+}
+.result.mt-5 {
+    padding: 26px;
+    text-align: center;
+    border: 1px solid #FFFFFF;
+}
+button.btn.btn-primary.banner-btn.track_rate_btn {
+    margin-top: 60px;
+    height: 60px;
+    width: 75%;
+}
+
 h2.what-we-do-heading {
     margin-top: 80px;
     font-weight: 800;
@@ -308,7 +372,15 @@ button.btn.btn-lg.form-button.text-md-center {
     width: 77%;
     font-size: 23px;
 }
-
+.card.card-send.pl-4.pt-3 {
+    left: -2px;
+}
+.card.card-send_2 {
+    left: 167px;
+}
+.card.card-send_3 {
+    left: 169px;
+}
 }
 /*
 // Medium devices (tablets, 768px and up)
