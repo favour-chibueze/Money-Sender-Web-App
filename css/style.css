@@ -7,11 +7,7 @@ body {
     background: linear-gradient(115.33deg, #3968E7 0.45%, #0902A5 97.55%);
 }
 
-section.banner-section {
-    background: linear-gradient(115.33deg, #3968E7 0.45%, #0902A5 97.55%);
-    padding-top: 133px;
-}
-
+/* Navbar Styling*/
 .fixed-top {
     z-index: 1030;
     background: linear-gradient(115.33deg, #3968E7 0.45%, #0902A5 97.55%);
@@ -56,6 +52,12 @@ button.btn.btn-primary {
     color: #FFFFFF;
 }
 
+/* Banner Styling*/
+
+section.banner-section {
+    background: linear-gradient(115.33deg, #3968E7 0.45%, #0902A5 97.55%);
+    padding-top: 133px;
+}
 .banner-header {
     font-weight: 800;
     font-size: 59px;
@@ -75,6 +77,8 @@ button.btn.banner-btn {
     box-shadow: -12px 45px 65px rgba(0, 0, 0, 0.04);
     border-radius: 5px;
 }
+
+/* Banner Card Styling*/
 
 .card.banner-card {
     margin-top: 0;
@@ -164,6 +168,8 @@ button.btn.btn-primary.banner-btn.track_rate_btn {
 
 }
 
+/* Third Section Styling*/
+
 h2.what-we-do-heading {
     margin-top: 80px;
     font-weight: 800;
@@ -175,6 +181,8 @@ p.what-we-do {
     margin-left: 270px;
     color: #9D9A9A;
 }
+
+/* Graph Section Styling*/
 
 .graph-section {
     background: rgba(242, 242, 242, 0.35);
@@ -234,6 +242,8 @@ p.paragraph-text {
     text-align: center;
 }
 
+/* Footer Styling*/
+
 footer.page-footer {
     background: #3968E7;
     color: #FFFFFF;
@@ -259,7 +269,8 @@ li a:hover,
     text-decoration: none;
 }
 
-/* Login Styling*/
+/* Login and Sign-up Styling*/
+
 a.login-brand {
     padding-top: 126px;
 }
@@ -312,6 +323,8 @@ i#togglePassword {
     right: 99px;
 }
 
+/* Mobile Responsiveness*/
+
 @media screen and (max-width: 768px) {
     body, html {
         overflow-x: hidden;
@@ -338,6 +351,37 @@ i#togglePassword {
         font-size: 35px;
     }
 
+    .card.card-send.pl-4.pt-3 {
+        width: 131px;
+        left: -2px;
+        z-index: 1;
+    }
+    
+    .card.card-send_2 {
+        left: 112px;
+    }
+    
+    .card.card-send_3 {
+        left: 109px;
+    }
+    
+    img.usa_flag {
+        margin-left: 30px;
+    }
+    
+    img.flag {
+        margin-left: 37px;
+    }
+    
+    span.arrow-down.pl-4 {
+        margin-left: -11px;
+    }
+    
+    button.btn.btn-primary.banner-btn.track_rate_btn {
+        width: 94%;
+        margin-top: 35px;
+    }
+    
     .col-lg-7.align-self-center {
         margin-top: 30px;
 }
@@ -367,7 +411,8 @@ button.btn.exchange-btn {
     margin-top: 27px;
 }
 
-/* Login */
+/* Login Mobile Responsiveness  */
+
 a.login-brand {
     padding-top: 83px;
 }
@@ -404,37 +449,6 @@ i#togglePassword {
 button.btn.btn-lg.form-button.text-md-center {
     width: 77%;
     font-size: 23px;
-}
-
-.card.card-send.pl-4.pt-3 {
-    width: 131px;
-    left: -2px;
-    z-index: 1;
-}
-
-.card.card-send_2 {
-    left: 112px;
-}
-
-.card.card-send_3 {
-    left: 109px;
-}
-
-img.usa_flag {
-    margin-left: 30px;
-}
-
-img.flag {
-    margin-left: 37px;
-}
-
-span.arrow-down.pl-4 {
-    margin-left: -11px;
-}
-
-button.btn.btn-primary.banner-btn.track_rate_btn {
-    width: 94%;
-    margin-top: 35px;
 }
 }
 /*
