@@ -76,9 +76,10 @@ button.btn.banner-btn {
 }
 
 .card.banner-card {
+    margin-top: 0;
     background: rgba(9, 2, 165, 0.47);
     box-shadow: -11.81px 44.2873px 63.9706px rgba(0, 0, 0, 0.04);
-    height: 772px;
+    height: 620px;
     width: 100%;
 }
 h5.mb-0.pb-3, h4.card-header-title {
@@ -89,7 +90,7 @@ h5.mb-0.pb-3, h4.card-header-title {
     box-shadow: -12.2452px 45.9196px 66.3283px rgba(0, 0, 0, 0.04);
     border-radius: 12.2452px;
     height: 73px;
-    top: -17px;
+    top: -41px;
     left: 27px;
     width: 177px;
 }
@@ -98,20 +99,22 @@ h5.mb-0.pb-3, h4.card-header-title {
     margin: 0;
     position: absolute;
     left: 194px;
-    top: 86px;
+    top: 62px;
     padding-top: 17px;
     height: 72px;
     background: rgba(255, 255, 255, 0.35);
     box-shadow: -12.4964px 46.8615px 67.6889px rgba(0, 0, 0, 0.04);
     border-radius: 12.4964px;
 }
-
+.card_send_2 {
+    margin-top: 40px !important;
+}
 .card.card-send_3 {
     width: 203px;
     margin: 0;
     position: absolute;
     left: 194px;
-    top: 243px;
+    top: 176px;
     padding-top: 17px;
     height: 72px;
     background: rgba(255, 255, 255, 0.35);
@@ -127,6 +130,10 @@ img.flag {
 }
 img.usa_flag{
     margin-left: 22px;
+}
+.text-md-right .text-white {
+    margin-top: -58px;
+    margin-bottom: -16px;
 }
 .result.mt-5 {
     padding: 26px;
@@ -373,13 +380,26 @@ button.btn.btn-lg.form-button.text-md-center {
     font-size: 23px;
 }
 .card.card-send.pl-4.pt-3 {
+    width: 131px;
     left: -2px;
 }
 .card.card-send_2 {
-    left: 167px;
+    left: 112px;
 }
 .card.card-send_3 {
-    left: 169px;
+    left: 109px;
+}
+img.usa_flag {
+    margin-left: 30px;
+}
+img.flag {
+    margin-left: 37px;
+}
+span.arrow-down.pl-4 {
+    margin-left: -11px;
+}
+button.btn.btn-primary.banner-btn.track_rate_btn {
+    width: 94%;
 }
 }
 /*
