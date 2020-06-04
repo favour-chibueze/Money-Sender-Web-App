@@ -1,0 +1,368 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Dashboard</title>
+    <link rel="icon" type="image/png" sizes="16x16" href="images/favicon-16x16.png">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/dashboard.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@200;300&family=Montserrat:wght@100&family=Roboto:wght@300&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
+    <!--<style>
+        /* Set height of the grid so .sidenav can be 100% (adjust as needed) */
+        
+        .row.content {
+            height: 550px
+        }
+        /* Set gray background color and 100% height */
+        
+        .sidenav {
+            background-color: blue;
+            height: 100%;
+        }
+        
+        .hei {
+            height: 120px;
+        }
+        /* On small screens, set height to 'auto' for the grid */
+        
+        @media screen and (max-width: 767px) {
+            .row.content {
+                height: auto;
+            }
+        }
+    </style>-->
+</head>
+
+<body>
+
+    <nav class="navbar navbar-inverse visible-xs">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>                        
+      </button>
+                <a class="navbar-brand" href="#">Logo</a>
+            </div>
+            <div class="collapse navbar-collapse" id="myNavbar">
+                <ul class="nav navbar-nav">
+                    <li class="active"><a href="#">Dashboard</a></li>
+
+                    <li><a href="#">Gender</a></li>
+                    <li><a href="#">Geo</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container-fluid main-container">
+        <div class="row content">
+            <div class="col-sm-1 sidenav hidden-xs">
+                <img class="logo" src="images/Group 6.png" alt="">
+                <ul class="nav nav-pills nav-stacked">
+
+                    <li class="">
+                        <a href="#"><img src="images/grid 1.png" alt=""></a>
+                    </li>
+                    <li>
+                        <a href="#"><img src="images/bar-chart-2 1.png" alt=""></a>
+                    </li>
+                    <li>
+                        <a href="#"><img src="images/file-text (1) 1.png" alt=""></a>
+                    </li>
+                    <li>
+                        <a href="#"><img src="images/users 1.png" alt=""></a>
+                    </li>
+                    <li>
+                        <a href="#"><img src="images/message-circle.png" alt=""></a>
+                    </li>
+                    <li>
+                        <a href="#"><img src="images/settings.png" alt=""></a>
+                    </li>
+
+                </ul><br>
+            </div>
+            <br>
+
+            <div class="col-sm-7 first-row">
+                <div class="row">
+                    <div class="col-sm-8">
+                        <input type="text" placeholder="Search Transactions" id="myInput" onkeyup="filterFunction()">
+                    </div>
+                    <div class="col-sm-4">
+                        <a class="bell" href="#"><img src="images/Group 158.png" alt=""></a>
+                    </div>
+                </div>
+                <!--FIRST TEXT-->
+                <div class="row second-row">
+                    <h3 class="send-text">Send Money</h3>
+                    <div class="col-sm-7  ">
+
+                        <div class="d-flex flex-column big-box ">
+                            <div class="row">
+                                <div class="col-sm-6">
+                                    <div class="dropdown">
+                                        <button class="btn btn-dropdown dropdown-toggle" type="button" data-toggle="dropdown"><img src="images/Visa_Inc._logo 1 (1).png" alt=""> <span class="visa-num">5664 ** 8877</span>
+                                                <span class="caret"></span></button>
+                                        <ul class="dropdown-menu">
+                                            <li>
+                                                <a href="#"></a>
+                                            </li>
+                                            <li>
+                                                <a href="#"></a>
+                                            </li>
+
+                                        </ul>
+                                    </div>
+
+                                </div>
+                                <div class="col-sm-6 amt-ngn">
+
+                                    <p>Amount</p>
+                                    <h3>NGN 80,000</h3>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-sm-8 active-amount">
+                                    <p>Active Balance <span class="active-amtspan"> NGN 80,000.00</span>
+                                    </p>
+
+                                </div>
+                                <div class="col-sm-4 ">
+
+                                    <button type="button" class=" btn-money">Send Money</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!--second box-->
+                    <div class="col-sm-4 blue-card1">
+                        <div class="d-flex flex-column   ">
+                            <div class="row">
+                                <div class="col-sm-6">
+                                    <p class="monthly-balance">Monthly Balance</p>
+
+                                </div>
+                                <div class="col-sm-6">
+                                    <a class="img-dots" href="#"><img src="images/Group 46.png" alt=""></a>
+
+                                </div>
+                            </div>
+                            <div>
+                                <h3 class="monthly-cost">NGN 6,142.40</h3>
+                            </div>
+                            <div>
+
+                                <progress class="progressbar" id="file" value="70" max="100"> 100% </progress>
+                            </div>
+                        </div>
+                    </div>
+                    <!--End of second box-->
+                </div>
+
+                <div class="row ">
+                    <!--FIRST-SMALL-BOX-->
+                    <div class="col-sm-4 ">
+                        <div class="d-flex flex-column  card1">
+                            <div class="row">
+                                <div class="col-sm-3 circle">
+                                    <img src="images/pie-chart 1.png" alt="">
+
+                                </div>
+                                <div class="col-sm-9 card1-text">
+
+                                    <h3>NGN 8,500</h3>
+                                    <p>Income in This Month</p>
+                                </div>
+                            </div>
+                            <div class="row card1-text2">
+                                <div class="col-sm-6">
+                                    <p class="balance-text">Balance Up by
+                                    </p>
+
+                                </div>
+                                <div class="col-sm-6">
+
+
+                                    <p class="arrow-up"> <img src="images/Group 48.png" alt=""><span>+12.57%</span></p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-4">
+                        <div class="d-flex flex-column  card1">
+                            <div class="row">
+                                <div class="col-sm-3 circle circle2">
+                                    <img src="images/archive 1.png" alt="">
+
+                                </div>
+                                <div class="col-sm-9 card1-text">
+
+                                    <h3>NGN 6,500</h3>
+                                    <p>Outcome in This Month</p>
+                                </div>
+                            </div>
+                            <div class="row card1-text2">
+                                <div class="col-sm-6">
+                                    <p class="balance-text">Balance Down by
+                                    </p>
+
+                                </div>
+                                <div class="col-sm-6 red-text">
+
+
+                                    <p class="arrow-up red-text"> <img src="images/Group 48 (1).png" alt=""><span class="red-text">-5.57%</span></p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-4">
+                        <div class="d-flex flex-column  card1">
+                            <div class="row">
+                                <div class="col-sm-3 circle circle3">
+                                    <img src="images/wallet 1.png" alt="">
+
+                                </div>
+                                <div class="col-sm-9 card1-text">
+
+                                    <h3>NGN 4,500</h3>
+                                    <p>Saved in This Month</p>
+                                </div>
+                            </div>
+                            <div class="row card1-text2">
+                                <div class="col-sm-6">
+                                    <p class="balance-text">Saved Up by
+                                    </p>
+
+                                </div>
+                                <div class="col-sm-6">
+
+
+                                    <p class="arrow-up"> <img src="images/Group 48.png" alt=""><span>+8.21%</span></p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+            <!--THIRD GRID-->
+            <div class="col-sm-3  third-grid">
+                <div class="third-grid-container">
+                    <h4>Hello Favour</h4>
+                    <p class="dashboard-text">Welcome to Money sender Dashboard</p>
+                    <div class="row">
+                        <div class="col-sm-6 plus-card">
+                            <p>My Card</p>
+
+                        </div>
+                        <div class="col-sm-6 plus-card">
+                            <a href=""><img src="images/plus-circle (1).png" alt=""></a>
+
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-sm-6 visa-card">
+                            <p class="visa-text">Card Primary</p>
+                            <div class="col-sm-6">
+                                <p class="card-numbers">**8090</p>
+                            </div>
+                            <div class="col-sm-6">
+                                <img class="visa-image" src="images/Visa_Inc._logo 1.png" alt="">
+                            </div>
+                        </div>
+                        <div class="col-sm-6">
+                            <h4 class="active-amount">NGN 80,000.00</h4>
+                            <p class="active-balance">Active Balance</p>
+
+                        </div>
+                    </div>
+                    <div class="row transaction-col">
+                        <div class="col-sm-6">
+                            <p>Recent Transactions</p>
+
+                        </div>
+                        <div class="col-sm-6">
+                            <img src="images/Group 142.png" alt="">
+
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-sm-2 letter-circle">
+                            <p>P</p>
+
+                        </div>
+                        <div class="col-sm-4 banks">
+                            <h3 class="banks-text1">UBA Bank</h3>
+                            <p>08 March 2020</p>
+
+                        </div>
+                        <div class="col-sm-6 banks-amount">
+                            <p>NGN 40,000.00</p>
+
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-sm-2 letter-circle">
+                            <p>U</p>
+
+                        </div>
+                        <div class="col-sm-4 banks">
+                            <h3 class="banks-text1">UBA Bank</h3>
+                            <p>08 March 2020</p>
+
+                        </div>
+                        <div class="col-sm-6 banks-amount1">
+                            <p>NGN 40,000.00</p>
+
+                        </div>
+                    </div>
+
+
+                    <div class="row">
+                        <div class="col-sm-2 letter-circle">
+                            <p>U</p>
+
+                        </div>
+                        <div class="col-sm-4 banks">
+                            <h3 class="banks-text1">UBA Bank</h3>
+                            <p>07 March 2020</p>
+
+                        </div>
+                        <div class="col-sm-6 banks-amount">
+                            <p>NGN 40,000.00</p>
+
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-sm-2 letter-circle">
+                            <p>R</p>
+
+                        </div>
+                        <div class="col-sm-4 banks">
+                            <h3 class="banks-text1">UBA Bank</h3>
+                            <p>06 March 2020</p>
+
+                        </div>
+                        <div class="col-sm-6 banks-amount1">
+                            <p>NGN 40,000.00</p>
+
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>
